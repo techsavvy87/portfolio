@@ -77,7 +77,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://t.me/startechsavvy"
+                  href="https://t.me/starsavvy"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -97,7 +97,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="techsavvy_14426"
+                  href="techsavvy_59"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
