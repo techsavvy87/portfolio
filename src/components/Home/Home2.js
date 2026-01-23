@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.png";
 import Tilt from "react-parallax-tilt";
 import { AiFillGithub } from "react-icons/ai";
-import { FaTelegram, FaDiscord, FaLinkedinIn } from "react-icons/fa";
+import { FaTelegram, FaDiscord } from "react-icons/fa";
 import { BsMicrosoftTeams } from "react-icons/bs";
 
 function Home2() {
