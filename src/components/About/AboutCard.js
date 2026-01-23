@@ -8,20 +8,23 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Daniel Doe </span>
-            from <span className="purple"> Australia.</span>
+            Hi Everyone, I am <span className="purple">Ryan Alcantara</span>
+            from <span className="purple"> Philippines.</span>
             <br />
             I am currently working as a software developer at IT field.
+            <br />I am a Full-Stack Developer specializing in React and Node.js,
+            with strong expertise in building scalable, high-performance web
+            applications. I design and develop API-driven systems with clean,
+            maintainable architecture and a strong focus on user experience and
+            reliability.
+            <br />I also specialize in AI and chatbot integrations, including
+            ChatGPT-powered solutions, enabling businesses to automate
+            workflows, enhance customer engagement, and deliver intelligent
+            digital products.
             <br />
-            Results-driven Web Developer & Backend Engineer with over 5 years of
-            experience designing, building, and optimizing responsive, scalable
-            web applications. <br /> Skilled at writing clean, maintainable
-            code, integrating APIs, and implementing performance-focused
-            solutions that enhance user experience. <br /> Strong background in
-            project leadership and Agile delivery, with a proven record of
-            reducing system downtime, improving efficiency, and driving cost
-            savings. <br /> Passionate about leveraging technical expertise and
-            collaborative leadership to deliver innovative digital solutions.
+            Driven by modern JavaScript technologies and open-source
+            collaboration, I continuously strive to build efficient, secure, and
+            future-ready software solutions.
           </p>
         </blockquote>
       </Card.Body>

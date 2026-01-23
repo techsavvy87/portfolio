@@ -2,12 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import AIsign from "../../Assets/Projects/AIsign.png";
+import spiritual from "../../Assets/Projects/spiritual.png";
 
 function Projects() {
   return (
@@ -34,25 +31,25 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={AIsign}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
+              title="AI-Powered Tax E-Signature & E-Filing Automation System"
+              description="Built an AI-powered solution to automate e-signatures and e-filing for IRS tax forms (8879, W-2), enabling secure, compliant, and efficient digital tax document processing."
               ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
               demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={spiritual}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"
+              title="Spiritual Guidance & Self-Liberation Platform"
+              description="Designed and developed a spiritual guidance platform that combines ancient wisdom with modern spiritual practices to support individuals on their journey toward self-discovery and inner freedom. The platform provides structured guidance to help users clear karmic patterns, awaken their true self, and embrace spiritual sovereignty in their daily lives."
+              ghLink="https://github.com/soumyajit4419/Spiritual-Guidance-Platform"
+              demoLink="https://spiritual.soumya-jit.tech/"
             />
-          </Col> */}
+          </Col>
         </Row>
       </Container>
     </Container>
